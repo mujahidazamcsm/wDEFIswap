@@ -337,13 +337,6 @@
       "decimals": 18
     },
     {
-      "name": "JNTR/b",
-      "symbol": "JNTR/b",
-      "address": "0x3c037c4c2296f280bb318d725d0b454b76c199b9",
-      "chainId": 56,
-      "decimals": 18
-    },
-    {
       "name": "SPARTAN PROTOCOL TOKEN",
       "symbol": "SPART",
       "address": "0xe4ae305ebe1abe663f261bc00534067c80ad677c",
@@ -799,13 +792,6 @@
       "address": "0xc3fed6eb39178a541d274e6fc748d48f0ca01cc3",
       "chainId": 56,
       "decimals": 8
-    },
-    {
-      "name": "anyMTLX",
-      "symbol": "anyMTLX",
-      "address": "0x5921dee8556c4593eefcfad3ca5e2f618606483b",
-      "chainId": 56,
-      "decimals": 18
     },
     {
       "name": "ZeroSwapToken",

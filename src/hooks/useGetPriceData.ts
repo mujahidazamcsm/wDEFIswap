@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react'
 
 type ApiResponse = {
+  data : {
+    [key: string]: string
+  }
   prices: {
     [key: string]: string
   }
@@ -10,7 +13,9 @@ type ApiResponse = {
 /**
  * Due to Cors the api was forked and a proxy was created
  */
-const api = 'https://api.pancakeswap.com/api/v1/price'
+const WDEFI_ADDRESS = '0x291083c8aedfc3cd0384494e1fcdcf2067d28d3e'
+const WOOP_ADDRESS = '0x8b303d5bbfbbf46f1a4d9741e491e06986894e18'
+const api = 'https://api.pancakeswap.info/api/v2/tokens/' + WDEFI_ADDRESS
 
 const useGetPriceData = () => {
   const [data, setData] = useState<ApiResponse | null>(null)
